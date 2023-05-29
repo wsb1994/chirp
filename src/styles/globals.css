@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-slate-100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-begin;
+
+  }
+
+  .navbaritem{
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
