@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                         <div>
                             <Button onClick={() => {
                                 createChirps(textFieldValue, theUser);
-                                if (textFieldValue != "") {
+                                if (textFieldValue != "" && theUser != undefined && theUser != null) {
                                     void router.push('/');
                                 }
                             }

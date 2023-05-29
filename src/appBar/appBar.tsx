@@ -24,6 +24,11 @@ const DrawerAppBar = () => {
                 <Toolbar className='navbar'>
 
                     <Box className="navbaritem" sx={{ display: { sm: 'block' } }}>
+                        <button onClick={() => { void router.replace('/account'); }}>
+                            My Account
+                        </button>
+                    </Box>
+                    <Box className="navbaritem" sx={{ display: { sm: 'block' } }}>
                         <button onClick={() => { void router.replace('/'); }}>
                             Home
                         </button>
