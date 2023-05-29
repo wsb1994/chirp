@@ -2,7 +2,6 @@ import { type NextPage } from "next";
 
 import { api } from "~/utils/api";
 import DrawerAppBar from "../appBar/appBar";
-import { Card } from "@mui/material";
 import { UserProfile } from "@clerk/nextjs";
 const Home: NextPage = () => {
 
